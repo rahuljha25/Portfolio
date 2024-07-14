@@ -1,0 +1,35 @@
+/* You can add custom styles here if needed */
+/* You can add custom styles here if needed */
+/* Custom CSS styles for the portfolio website */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header nav a {
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #63b3ed; /* Tailwind's blue-400 color */
+}
+
+#contact-form input,
+#contact-form textarea {
+    transition: border-color 0.3s ease;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #63b3ed; /* Tailwind's blue-400 color */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.3); /* Tailwind's blue-400 color with alpha */
+}
+button:hover {
+    transition: background-color 0.3s ease;
+}
+footer a {
+    transition: color 0.3s ease;
+}
+
+

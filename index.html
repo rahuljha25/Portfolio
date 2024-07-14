@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">RAHUL KUMAR</h1>
+            <nav>
+                <a href="#about" class="ml-4 hover:underline">About</a>
+                <a href="#projects" class="ml-4 hover:underline">Projects</a>
+                <a href="#contact " class="ml-4 hover:underline">Contact </a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container mx-auto py-16">
+        <h2 class="text-4xl font-bold mb-4">About Me</h2>
+
+        <p class="text-lg leading-relaxed">I am a passionate Java developer with experience in building web applications and services. I love to learn new technologies and improve my skills.</p>
+    </section>
+
+    <section id="projects" class="container mx-auto py-16">
+        <h2 class="text-4xl font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-2">Project 1</h3>
+                <p class="text-gray-700"><b>INTELLIGENT DISTRIBUTION OF FRESH AGRICULTURAL PRODUCTS IN SMART CITY.</p></b>
+                <p class="text-gray-500"></p><b> Description:</b>This Projects aims to optimize the distribution of fresh agricultural products in smart city using intelligent algorithms and using intelligent algorithms and technologies, ensuring efficient supply chain, reduced waste, and timely delivery to meet urban demands.</div></p>
+                
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-semibold mb-2">Project 2</h3>
+                <p class="text-gray-700"><b>BLOOD BANK MANAGEMENT SYSTEM</b></p>
+                <p class="text-gray-500"></p><b> Description:</b>Blood banks play an important role in the process of collecting blood and managing blood stocks, approving blood requests, updating donations, and updating available blood types</p>
+            
+        </div>
+    </section>
+
+    <section id="contact " class="container mx-auto py-16">
+        <h2 class="text-4xl font-bold mb-4">Contact me</h2>
+        <form id="contact-form" class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text" id="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <textarea id="message" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Send</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <!-- About Me Section -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">About Me</h3>
+                <p class="text-gray-400">I am a full Stack Java developer. I am passionate about building elegant and efficient solutions to complex problems.</p>
+            </div>
+    
+            <!-- Contact Me Section -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Contact Me</h3>
+                <p class="text-gray-400">kur.rahul99@gmail.com</p>
+                <p class="text-gray-400">+ 9297598036</p>
+                <p class="text-gray-400">Khagaria Bihar, india</p>
+            </div>
+    
+            <!-- Social Media Section -->
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Social Media</h3>
+                <p><a href="https://www.facebook.com" class="text-gray-400 hover:text-white">Facebook</a></p>
+                <p><a href="https://www.twitter.com" class="text-gray-400 hover:text-white">Twitter</a></p>
+                <p><a href="https://www.github.com" class="text-gray-400 hover:text-white">GitHub</a></p>
+                <p><a href="https://www.linkedin.com" class="text-gray-400 hover:text-white">LinkedIn</a></p>
+            </div>
+        </div>
+        <div class="container mx-auto text-center mt-8 border-t border-gray-700 pt-4">
+        </div>
+    </footer>
+    <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+        <p class="text-lg">&copy; 2024 Rahul Kumar. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="https://www.linkedin.com" class="text-gray-400 hover:text-white mx-2">LinkedIn</a>
+            <a href="https://www.github.com" class="text-gray-400 hover:text-white mx-2">GitHub</a>
+            <a href="mailto:john.doe@example.com" class="text-gray-400 hover:text-white mx-2">Email</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
